@@ -54,6 +54,66 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "Other Person",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://thumbs.dreamstime.com/b/conceito-de-livro-m%C3%A1gico-aberto-p%C3%A1ginas-abertas-com-oceano-e-terra-crian%C3%A7as-pequenas-fantasia-natureza-ou-aprendizagem-c%C3%B3pia-166401875.jpg',
+        likes: 20,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 50,
+                username: "Bia",
+                text: "Nice Pic!",
+            },
+            {
+                id: 57,
+                username: "michaelmarzetta",
+                text: "Omg, so pretty",
+            },
+            {
+                id: 58,
+                username: "themexican_leprechaun",
+                text: "What view",
+            },
+            {
+                id: 59,
+                username: "dennis_futbol",
+                text: "It that real?",
+            },
+        ],
+    },
+    {
+        id: 4,
+        username: "Someone",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://thumbs.dreamstime.com/b/livro-vazio-da-receita-29177444.jpg',
+        likes: 45,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 66,
+                username: "twitch",
+                text: "I am hungry!",
+            },
+            {
+                id: 67,
+                username: "michaelmarzetta",
+                text: "Love this recipe",
+            },
+            {
+                id: 68,
+                username: "themexican_leprechaun",
+                text: "Cake time!",
+            },
+            {
+                id: 69,
+                username: "dennis_futbol",
+                text: "Best food ever!",
+            },
+        ],
+    },
 ];
 
 export default dummyData;
