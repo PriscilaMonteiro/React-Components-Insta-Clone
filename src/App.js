@@ -24,10 +24,13 @@ const App = () => {
 
   const likePost = postId => {
     
-    console.log(postId)
-
-    const newPosts = posts.map(post => posts.id === postId ? {...post, likes: post.likes + 1} : post)
-    setPosts(newPosts)
+    setPosts(prevPosts => prevPosts.map(post => {
+      if (post.id === postId) return {
+        ...post,
+        likes: post.likes + 1
+      }
+      return post;
+    }))
 
   
     
